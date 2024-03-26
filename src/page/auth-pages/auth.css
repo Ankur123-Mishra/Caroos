@@ -1,0 +1,23 @@
+.otp-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:40%; /* Adjust the width as needed */
+    margin: 0 auto;
+    
+  }
+  
+  .otp-input {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  @media(max-width:780px){
+    .otp-container{
+        width: 97% !important;
+       margin-bottom: 20px;
+       margin-top: 70px;
+    }
+  }

@@ -1,0 +1,32 @@
+.copy-button {
+    display: inline-block;
+   
+    color: #fff;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .copied-button {
+    display: inline-block;
+   
+    color: #fff;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+    margin: 5px;
+  }
+  .coupon-container{
+    min-height: 70vh;
+    margin-bottom: 14px;
+  }
+
+
+  @media (max-width:780px){
+    .coupon-container{
+        min-height: 10vh;
+
+      }
+  }

@@ -1,0 +1,23 @@
+.mydtails{
+    width: 40%;
+}
+
+.selected{
+    border: 3px solid #DE3820;
+}
+/* mycars */
+.checked-box{
+    top:13px;
+     width: 10px;
+     height: 14px;
+     border-radius: 40%;
+    
+     right:11px;
+    font-size:24px;
+}
+@media (max-width:770px){
+    .mydtails{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,442 @@
+/* banner */
+.banner {
+    position: relative;
+    /* margin-top: 60px; */
+    min-width: 100%;
+    /* background-image: url('../../asets/banner1.png'); */
+    background-size: cover;
+    background-position: center;
+    max-height:80vh;
+    color: #fff;
+    
+  }
+  .img-fluid2{
+    min-width: 100% !important;
+    max-height: 90vh;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.5;
+    /* border:1px solid green; */
+    width: 100%;
+    height: 100%;
+    background-color: #2D0000 !important; /* Adjust the alpha value for the desired overlay opacity */
+  }
+  .carousel-control-next, .carousel-control-prev{
+    z-index: 20 !important;
+    color: white !important;
+    padding-left: 10px;
+  }
+ .banner-container{
+    z-index: 1000;
+    position: absolute;
+    top:130px;
+    left:120px
+ }
+  
+  .banner-content {
+   
+    padding: 10px !important;
+    
+    
+  }
+  
+  .banner h1 {
+    font-size: 74px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 74px;
+    color: #FFFFFF;
+
+  }
+  
+  .banner p {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color: #FFFFFF;
+  }
+  
+  .banner button {
+    font-size: 1.25rem;
+  }
+  .banner-logo-container{
+    background-color: #b8242a;
+    min-height: 140px;
+    position: relative;
+    z-index: 999;
+  }
+  .container-logo-box{
+    background-color: transparent;
+    position: absolute;
+    top: -47px;
+    z-index: 999;
+
+
+  }
+  .tringle{
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    background-color: #b8242a;
+
+    width: 80px;
+    height:80px;
+    color: white;
+    left: 0;
+    top: 0;
+  }
+  .newtext{
+    transform: rotate(-46deg) !important;
+  margin: 5px -2px 0px -8px;;
+  }
+  /* category card */
+
+  /* category card end */
+
+  .h-100{
+    height: 80vh !important;
+  }
+  .logos{
+    width:120px;
+    height: 120px;
+    border-radius: 20px !important;
+  }
+
+ /* experiance industry */
+ /* work process */
+ .work-card{
+    width: 310px;
+ }
+ .work-card h4{
+    font-size: 17px !important;
+
+ }
+ .work-card p{
+   font-size: 12px;
+ }
+ .arrow1{
+   width: 142px;
+   left: 26%;
+   top: 26%;
+   z-index: 999;
+ }
+ .arrow2{
+    width: 142px;
+    left: 59%;
+    top: 26%;
+    z-index: 999;
+ }
+ /* industry work */
+ .industry-opt-text{
+  font-size: 20px;
+  font-weight: 400;
+ }
+
+ /* best work */
+ .bestwork-container{
+  height: 340px;
+ }
+ .scroll-content{
+
+  bottom: -20px;
+ }
+ /* testimonial */
+ .mt-20{
+  margin-top: 200px !important;
+ }
+ .testimonial-contaner{
+  width: 480px;
+ }
+ /* industry */
+ .img-container{
+  width:454.29px;
+ }
+ /* frequentaly questions */
+ .accordion-button{
+  font-size: 12px !important;
+  font-weight: 700 !important;
+ }
+ .accordion-item {
+  color: var(--bs-accordion-color);
+  background-color: #EDF5F9 !important;
+  border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+}
+.accordion-button{
+  background-color: #EDF5F9 !important;
+  border: none !important;
+}
+.accordion-button:focus{
+  box-shadow: none !important;
+}
+
+.faq-quest button{
+   font-size: 18px !important;
+   font-weight:800 !important;
+}
+.faq-ans{
+  font-size:16px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #000000;
+}
+
+/* request a calback */
+.callbck-heading{
+  font-size:36px !important;
+}
+.callback-p{
+  font-size: 20px !important;
+  font-weight: 400;
+}
+.calback-btn{
+  width:213px !important;
+  border-radius: 20px;
+  padding: 21px 27px 21px 24px;
+ font-size:18px !important;
+
+}
+/* industry */
+
+.industry-li1{
+  font-size: 70px;
+   line-height: 24px;
+   text-transform: uppercase;
+}
+.industry-li2{
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+
+/* work process */
+.work-heading{
+  font-size: 23px !important;
+}
+.work-text{
+  font-size: 17px !important;
+}
+.appointment-btn{
+  background-color: #b8242a;
+  padding: 18px 40px; 
+  border:none;
+  font-family: 'Nunito Sans', sans-serif !important;
+  color: white !important;
+  border-radius: 8px;
+  width: 197px;
+  text-align: center;
+  
+  font-size: 15px !important;
+  font-weight: 400;
+}
+
+/* testimonials */
+
+
+/* .slick-prev{
+  left: -110px !important;
+}
+.slick-next{
+  right: -90px !important ;
+
+} */
+.img-bestwork-carousel{
+  width:94%;
+  height: 310px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.scroll-content .socialmain-slider button.slick-prev{
+  left:-36px !important;
+}
+.scroll-content .socialmain-slider button.slick-next{
+  right:-36px !important ;
+}
+.slick-prev:before, .slick-next:before{
+  font-size: 38px;
+  color: rgb(15, 15, 15);
+}
+.testimonial-contaner .slick-slider .slick-next{
+  right: -110px !important;
+}
+.testimonial-contaner .slick-slider .slick-prev{
+  left: -110px !important;
+}
+
+
+/* download app */
+.download-heading{
+  font-size: 34px;
+  font-weight:800;
+  line-height: 27px;
+}
+.download-img{
+  width:485px;
+  height: 641px;
+}
+
+/* banner */
+.carousel-banner{
+  display: block !important;
+}
+.carousel-bannerM{
+  display: none !important;
+}
+/* brans*/
+.img-brnads{
+  Max-width: 70px;
+  height: auto;
+}
+.margin-b{
+  margin-bottom: 16px !important;
+}
+
+  @media (max-width:768px){
+      .container-logo-box{
+        position: static;
+      }
+      .work-card{
+        width: 98%;
+      }
+      .bestwork-container{
+        height: auto;
+       }
+       .scroll-content{
+        position: static;
+       }
+       .testimonial-contaner{
+        width:100%;
+       }
+       .mt-20{
+        margin-top: 0px !important;
+       }
+       .banner-text{
+        font-size: 10px !important;
+       text-align: center;
+       }
+       .banner-text2{
+          font-size: 10px !important;
+          text-align: center;
+         
+       }
+       .banner{
+        width: 100vw !important;
+        padding: 0 !important;
+       }
+       .banner-container{
+          position: absolute;
+          top: 0;
+          width: 100%;
+          left: 0;
+       }
+       .banner-content{
+        text-align: center;
+       }
+       .banner-logo-container{
+        margin-top: 20px !important;
+       }
+       .carousel-banner{
+        display: none !important;
+      }
+      .carousel-bannerM{
+        display: block !important;
+      }
+       .img-container{
+        width: 100%;
+        max-height: 300px;
+        overflow: hidden;
+       }
+       .img-car{
+        
+        height: 300px !important;
+       }
+       .slick-prev, .slick-next{
+        position:relative !important;
+
+      }
+      /* .slick-prev{
+        left: -34px !important;
+        bottom: -100px;
+      }
+      .slick-next{
+        right: -290px !important ;
+      } */
+      .scroll-content .socialmain-slider button.slick-prev{
+        left: -14px !important;
+        bottom: -213px !important;
+      }
+      .scroll-content .socialmain-slider button.slick-next{
+        right: -305px !important;
+        top: -120px !important;
+      }
+      .slick-prev:before, .slick-next:before{
+        font-size: 20px;
+        color: rgb(15, 15, 15);
+        
+      }
+      .testimonial-contaner .slick-slider .slick-next{
+        right: -294px !important;
+        top: -37px !important;
+      }
+      .testimonial-contaner .slick-slider .slick-prev{
+        left: -19px !important;
+        bottom: -88px !important;
+      }
+      .img-bestwork-carousel{
+        width: 100%;
+      }
+      
+      .industry-li1{
+        font-size: 22px;
+      }
+      .industry-li2{
+        font-size: 10px !important;
+        line-height: 14px;
+      }
+      .callbck-heading{
+        font-size: 22px !important;
+      }
+
+.download-heading{
+  font-size: 24px;
+  font-weight: 700;
+}
+.download-img{
+  width: 100%;
+  height: auto;
+}
+
+.faq-quest button{
+  font-size: 14px !important;
+  font-weight:500 !important;
+}
+.faq-ans{
+  font-size: 12px !important;
+}
+
+/* best work */
+.industry-opt-text{
+  font-size: 14px;
+  font-weight: 300;
+ }
+ .industry-opt-text img{
+  width: 18px;
+  height: 18px;
+ }
+
+ .img-brnads{
+  Max-width: 40px;
+  height: auto;
+}
+
+
+      /* .banner-content a #book-btn{
+        padding:0px 0px 0px 0px !important;
+        font-size: 2px !important;
+       } */
+  }

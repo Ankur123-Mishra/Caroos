@@ -1,0 +1,195 @@
+
+.login-box{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px !important;
+}
+
+/* services card */
+.img-category{
+    width: 100%;
+     max-height: 200px;
+}
+#services-info li{
+    list-style-type: disc !important;
+}
+/* remove card */
+.cross-btn{
+    right: -10px;
+    top: -17px;
+    font-size: 24px;
+}
+.card-box{
+    width: 540px;
+    
+}
+.remove-card{
+    height: 90px;
+    
+}
+.card-font{
+    font-size: 21px;
+}
+
+/* floating card */
+.floating-cart {
+    position: fixed;
+    bottom: 88px; 
+    right: 33px; 
+    width: 52px; 
+    height: 52px; 
+    border: 1px solid #DE3820;
+    background-color:white ;
+    border-radius: 50%; 
+    display: flex;
+    z-index: 10000;
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+    font-size: 24px; 
+    cursor: pointer;
+    
+  }
+  
+  .floating-cart i {
+    
+    font-size: 24px; 
+    color: #DE3820 !important;
+  }
+  .badgecart {
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    color: white;
+    background-color:  #DE3820;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  /* floating whatsapp */
+  .floating-whatsapp {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+  
+    background-color: #25d366;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+    font-size: 24px; 
+    cursor: pointer;
+   z-index: 12000;
+  }
+  
+  .floating-whatsapp i {
+    color: white;
+    font-size: 43px; 
+  }
+  
+  
+  .floating-call{
+    display: none;
+  }
+  
+  
+
+@media (max-width: 780px){
+     .img-category{
+        width: 100%;
+        height: auto;
+     }
+     .card-box{
+        width:99%;
+        
+    }
+    .remove-card{
+        height: 90px;
+        
+    }
+    .card-font{
+        font-size: 14px;
+    }
+    .floating-cart{
+        width: 45px;
+        height: 45px;
+        right: 34px;
+        bottom: 88px;
+        border-radius: 48%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .floating-cart i{
+        font-size: 17px;
+    }
+    .brages{
+        width: 10px !important;
+        height: 10px !;
+        z-index: 24000;
+        top: 0;
+        background-color: #25d366;
+        border-radius: 50%;
+    }
+    .badgecart{
+        right: -4px;
+        bottom: 4px;
+        width: 16px;
+        height: 16px;
+      }
+    /* .floating-whatsapp {
+        width: 36px;
+        height: 36px;
+        right: 8px;
+        border-radius: 48%; 
+        bottom: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+    .floating-whatsapp {
+     
+      right: 10px;
+      position: fixed;
+      bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+    .floating-whatsapp i{
+          font-size: 23px;
+    }
+  /* .floating-call{
+        display: block;
+        position: fixed;
+        width: 36px;
+        height: 36px;
+        right: 10px;
+        border-radius: 48%; 
+        bottom: 54px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      } */
+      .floating-call{
+      
+        position: fixed;
+      
+       
+        right: 30px;
+        bottom: 87px;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .floating-call i{
+        font-size: 18px;
+  }
+}

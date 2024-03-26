@@ -1,0 +1,111 @@
+/* add new car */
+.add-car-form{
+    width:40%
+    
+}
+.logos{
+    cursor: pointer;
+}
+/* select ons */
+.select-ons-img{
+    width:100% !important;
+   height: auto;
+}
+.select-ons-card{
+    width: 140px !important;
+    height: 144px;
+    text-align: center;
+}
+.select-ons-card .addones-img{
+    width: 138px;
+    height: 80px;
+    text-align: center;
+    overflow: hidden;
+}
+.addones-text{
+    font-size: 12px !important;
+    font-weight:600 !important ;
+}
+.select-ons-card .addones-img img{
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+}
+.addons-slider .slick-slider button.slick-next{
+    position: absolute !important;
+    right:-9px;
+    top:48%;
+ }
+.slider-ons{
+    position: relative !important;
+}
+.red-btn-small{
+    padding: 2px !important;
+}
+
+/* .form-group.reqired .control-label:after {
+    content:"*";
+    color:red;
+  } */
+  .required-field{
+    position: absolute !important;
+    left: -1px;
+    top: -4px;
+    
+  }
+  .category-slider{
+    width: 94%;
+  }
+  .category-slider .slick-prev:before{
+    font-size: 22px;
+  }
+  .category-slider .slick-next:before{
+    font-size: 22px;
+  }
+  .addons-slider .slick-prev:before{
+    font-size: 22px;
+  }
+  .addons-slider .slick-next:before{
+    font-size: 22px;
+  }
+  .servicecategory-sticky{
+    position: sticky;
+    top:'70px !important'
+  }
+@media (max-width: 780px){
+  .servicecategory-sticky{
+    position: sticky;
+    top:'70px !important'
+  }
+    .add-car-form{
+        width: 94%;
+        margin-top: 90px;
+        margin-bottom: 40px;
+    }
+    .addons-slider .slick-slider button.slick-prev{
+        position: absolute !important;
+       left: 3px;
+        top:48%;
+    }
+    .category-slider{
+        width: 100%;
+      }
+      .category-slider .slick-slider{
+        display: flex;
+      }
+      .category-slider .slick-slider .slick-prev{
+        top: 34px !important;
+        left: -20px !important;
+      }
+      .category-slider .slick-slider .slick-next{
+        top: 36px !important;
+        right: -8px !important;
+        
+      }
+      
+    .addons-slider .slick-slider button.slick-next{
+        position: absolute !important;
+        right:0;
+        top:48%;
+     }
+}
