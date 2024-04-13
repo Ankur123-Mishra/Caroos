@@ -13,10 +13,14 @@ import ProfileProvider from './context/ProfileProvider';
 import ServicesProvider from './context/ServicesProvider';
 import UserAddressProvider from './context/UserAddressProvider';
 import PaymenttProvider from './context/PaymentProvider';
+import { BrowserRouter } from "react-router-dom";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+      <BrowserRouter>
+
   <AuthProvider>
   <ServicesProvider>
   <UserAddressProvider>
@@ -33,6 +37,8 @@ root.render(
     </UserAddressProvider>
     </ServicesProvider>
     </AuthProvider>
+    </BrowserRouter>
+
   </React.StrictMode>
 );
 

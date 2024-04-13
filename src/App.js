@@ -44,7 +44,7 @@ import OrderPlacedSuccessfully from "./OrderPlacedSuccessfully";
 function App() {
   return (
     <>
-    <HashRouter>
+    
     <HandleNavbar />
     <ScrollToTop/>
       <Routes>
@@ -88,7 +88,6 @@ function App() {
       </Routes>
       <Footer/>
       <FloatingCart/>
-    </HashRouter>
     {/* float cart */}
     
       {/* tost */}
