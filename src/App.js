@@ -122,7 +122,7 @@ function App() {
       </Routes>
       <Footer />
       <FloatingCart />
-      float cart tost
+      {/* float cart tost */}
       <ToastContainer
         position="top-right"
         autoClose={2000}
