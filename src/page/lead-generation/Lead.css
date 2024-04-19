@@ -1,0 +1,196 @@
+@media (max-width: 767px) {
+  .content h1 {
+    font-size: 30px!important;
+    line-height: 40px!important;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem!important  ;
+  }
+  .content p {
+    font-size: 20px!important;
+    line-height: 25px;
+    text-align: center;
+  }
+  .yourcar {
+    display: block;
+    text-align: center;
+  }
+  .nameField input,
+  .nameField select {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.yourcar {
+  color: transparent;
+
+  background: linear-gradient(
+    89.86deg,
+    #863ab2 16.86%,
+    #d12854 26.77%,
+    #fe2520 35.67%,
+    #fd7a37 46.18%,
+    #fdae45 57.31%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.content h1 {
+  color: white;
+  font-size: 62px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-top: 1rem;
+}
+
+.content p {
+  font-size: 1px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: white;
+  margin-top: 2rem;
+}
+
+.nameField input,
+.nameField select {
+  width: 275px;
+  height: 40px;
+  top: 37px;
+  gap: 0px;
+  border-radius: 5px;
+  opacity: 0px;
+  border: none;
+  background: rgba(241, 241, 241, 1);
+  padding-left: 1rem;
+}
+
+.getButton button {
+  /* width: Hug (129px) px;
+  height: Hug (54px) px; */
+  padding: 10px 36px 10px 36px;
+  gap: 10px;
+  border-radius: 5px;
+  border: none;
+  opacity: 0px;
+  background: rgba(182, 54, 50, 1);
+  color: white;
+}
+.getButton button:hover
+{
+  background-color: white;
+  color: black;
+  border: 0.2px solid black;
+  opacity: 0.7;
+}
+
+.second-content p {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 40px!important;
+  font-weight: 500;
+  text-align: center;
+}
+@media(max-width:650px)
+{
+  .nameField{
+    flex-wrap: wrap;
+  }
+}
+
+
+@media(max-width:820px)
+{
+  .multi{
+    width: 230px!important;
+  
+  }
+}
+
+
+@media(max-width:650px)
+{
+  .multi{
+    width: 360px!important;
+   
+  }
+}
+
+
+.multi {
+  border: none;
+  box-shadow: 0px 0px 5.5px 0px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  margin-top: 15px;
+}
+
+.explore-btn {
+  border: none;
+  color: rgba(182, 54, 50, 1);
+
+  background: transparent;
+  margin-top: 5rem;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+}
+
+.multicards:hover {
+  background-image: url("../../asets/Group 20.png");
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+  box-shadow: none;
+}
+.about:hover {
+  background-image: url("../../asets/Group 21.png");
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.last:hover {
+  background-image: url("../../asets/Group 22.png");
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+
+
+
+@media (max-width: 767px) {
+  .col-md-6 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+}
+
