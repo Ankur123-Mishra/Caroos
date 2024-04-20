@@ -40,57 +40,59 @@ const LeadGeneration = () => {
           <h3 className="card-title fw-bold">
             Enquire about our services.
           </h3>
-          <div className="row">
-            <div className="col mt-3">
-              <div className="form-group">
-                <label htmlFor="name">Name</label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="name"
-                  placeholder="Arlene D. Wiles"
-                />
+          <form>
+            <div className="row">
+              <div className="col mt-3">
+                <div className="form-group">
+                  <label htmlFor="name">Name</label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="name"
+                    placeholder="Arlene D. Wiles"
+                  />
+                </div>
+              </div>
+              <div className="col mt-3">
+                <div className="form-group">
+                  <label htmlFor="email">Email</label>
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="email"
+                    placeholder="you@gmail.com"
+                  />
+                </div>
               </div>
             </div>
-            <div className="col mt-3">
-              <div className="form-group">
-                <label htmlFor="email">Email</label>
-                <input
-                  type="email"
-                  className="form-control"
-                  id="email"
-                  placeholder="you@gmail.com"
-                />
+            <div className="row mt-3">
+              <div className="col">
+                <div className="form-group">
+                  <label htmlFor="phone">Your phone no.</label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="phone"
+                    placeholder="Number"
+                  />
+                </div>
+              </div>
+              <div className="col">
+                <div className="form-group">
+                  <label htmlFor="services">Services</label>
+                  <select className="form-control" id="services">
+                    <option value="">Select Services</option>
+                    <option value="">Paint protection film</option>
+                    <option value="">Coating</option>
+                    <option value="">Denting</option>
+                  </select>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="row mt-3">
-            <div className="col">
-              <div className="form-group">
-                <label htmlFor="phone">Your phone no.</label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="phone"
-                  placeholder="Number"
-                />
-              </div>
+            <div className="getButton mt-4">
+              <button>Get quote</button>
             </div>
-            <div className="col">
-              <div className="form-group">
-                <label htmlFor="services">Services</label>
-                <select className="form-control" id="services">
-                  <option value="">Select Services</option>
-                  <option value="">Paint protection film</option>
-                  <option value="">Coating</option>
-                  <option value="">Denting</option>
-                </select>
-              </div>
-            </div>
-          </div>
-          <div className="getButton mt-4">
-            <button>Get quote</button>
-          </div>
+          </form>
         </div>
       </div>
     </div>
