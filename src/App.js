@@ -59,7 +59,7 @@ function App() {
           path="/my-orders"
           element={<PrivateRoute Component={MyOrders} />}
         />
-        
+
         {/* <Route path="/my-orders/:id" element={<PrivateRoute Component={MyOrderChild} />}/>
         </Route> */}
 
