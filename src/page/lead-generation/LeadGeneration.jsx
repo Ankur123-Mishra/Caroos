@@ -51,7 +51,6 @@ const LeadGeneration = () => {
       setPhone("");
       setService("");
     }
-  
   };
 
   return (
@@ -83,7 +82,7 @@ const LeadGeneration = () => {
             </div>
 
             <div className="col-md-5 mt-md-5 mb-2">
-              <div className="card p-3 mt-3">
+              <div className="card p-3 mt-5">
                 <div className="card-body">
                   <h3 className="card-title fw-bold">
                     Enquire about our services.
