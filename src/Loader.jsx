@@ -4,7 +4,7 @@ import loaderImg from './asets/loader.gif'
 const Loader = () => {
   return (
     <div className="loader-budget">
-        {/* <img src="images/loader.png"  alt='loading...'  /> */}
+        <img src="images/loader.png"  alt='loading...'  />
         <img src={loaderImg }  alt='loading...'  />
        
     </div>
