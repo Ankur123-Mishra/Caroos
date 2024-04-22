@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-// import carClean from "../../asets/carsClean.jpg";
 import carClean from "../../asets/carClean.jpg";
-import "./Lead.css";
 import PremiumVehicle from "./PremiumVehicle";
+import "./Lead.css";
 
 const LeadGeneration = () => {
   const [name, setName] = useState("");
