@@ -70,8 +70,6 @@
 }
 
 .getButton {
-  /* width: Hug (129px) px;
-  height: Hug (54px) px; */
   padding: 10px 36px 10px 36px;
   gap: 10px;
   border-radius: 5px;
@@ -79,13 +77,14 @@
   opacity: 0px;
   background: rgba(182, 54, 50, 1);
   color: white;
+  margin-top: 1.5rem;
 }
-.getButton:hover {
+/* .getButton:hover {
   background-color: white;
   color: black;
   border: 0.2px solid black;
   opacity: 0.7;
-}
+} */
 
 .second-content p {
   margin-top: 1rem;
