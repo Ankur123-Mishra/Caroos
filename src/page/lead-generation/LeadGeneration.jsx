@@ -21,7 +21,7 @@ const LeadGeneration = () => {
 
     try {
       const response = await fetch(
-        "https://caross.in/api/user/send-enquiry-mail",
+        "https://caross.in/admin/api/user/send-enquiry-mail",
         {
           method: "POST",
           headers: {

@@ -5,6 +5,6 @@ import axios from 'axios';
 
 
 export default  axios.create({
-    baseURL: "https://caross.in/api/user/",
+    baseURL: "https://caross.in/admin/api/user/",
    
 })

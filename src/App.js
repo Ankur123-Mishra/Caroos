@@ -47,9 +47,9 @@ function App() {
       <HandleNavbar />
       <ScrollToTop />
       <Routes>
+        <Route path="/" element={<Homepage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/enter-otp" element={<EnterOTP />} />
-        <Route path="/" element={<Homepage />} />
         <Route
           path="/my-details"
           element={<PrivateRoute Component={EditDetails} />}

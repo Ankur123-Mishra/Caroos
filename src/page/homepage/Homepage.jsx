@@ -42,11 +42,11 @@ function Homepage() {
   const handleGetBanner = async () =>{
     try { 
       setIsLoading(true);     
-        const response = await Axios.get('get_all_banners')
+        const response = await Axios.get('/get_all_banners')
            if(response.status===200){
             const data = response?.data;             
             setBannerData(data?.banners)
-         //  console.log("banner..",data?.banners);
+          // console.log("banner..",data?.banners);
              
            }
           
