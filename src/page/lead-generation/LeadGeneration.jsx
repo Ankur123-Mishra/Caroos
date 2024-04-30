@@ -149,10 +149,6 @@ const LeadGeneration = () => {
                         </div>
                       </div>
                     </div>
-
-                    {/* <div className="getButton mt-4">
-              <button>Get quote</button>
-            </div> */}
                     {loading && <p>Loading...</p>}
                     {error && <p className="text-danger">{error}</p>}
                     {success && (
