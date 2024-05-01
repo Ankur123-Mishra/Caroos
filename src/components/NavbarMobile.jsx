@@ -36,23 +36,23 @@ function NavbarMobile() {
   //     setIsLoading(false);
   //   }
   // };
-  const getBrandLogo = async () => {
-    setIsLoading(true);
-    try {
-      const response = await Axios.get("/get-logo");
-      if (response && response.status === 200) {
-        const data = response.data; // Removed optional chaining
-        if (data) {
-          setBrandLogo(data.logo); // Added null check for data
-          console.log("logo", data);
-        }
-      }
-    } catch (err) {
-      console.log(err.response);
-    } finally {
-      setIsLoading(false);
-    }
-  };
+  // const getBrandLogo = async () => {
+  //   setIsLoading(true);
+  //   try {
+  //     const response = await Axios.get("/get-logo");
+  //     if (response && response.status === 200) {
+  //       const data = response.data; // Removed optional chaining
+  //       if (data) {
+  //         setBrandLogo(data.logo); // Added null check for data
+  //         console.log("logo", data);
+  //       }
+  //     }
+  //   } catch (err) {
+  //     console.log(err);
+  //   } finally {
+  //     setIsLoading(false);
+  //   }
+  // };
 
   
 

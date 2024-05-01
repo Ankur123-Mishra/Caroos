@@ -125,7 +125,7 @@ function App() {
       <Footer />
       <FloatingCart />
       {/* float cart tost */}
-      <ToastContainer
+      {/* <ToastContainer
         position="top-right"
         autoClose={2000}
         hideProgressBar={false}
@@ -136,7 +136,7 @@ function App() {
         draggable
         pauseOnHover
         theme="light"
-      />
+      /> */}
     </>
   );
 }
