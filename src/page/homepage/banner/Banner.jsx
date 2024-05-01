@@ -43,7 +43,7 @@ const getDefaultCar = async () =>{
        
 
      
-      const response = await Axios.get('get_user_car',{
+      const response = await Axios.get('/get_user_car',{
         headers: {
           Authorization: `Bearer ${userToken}`
         }

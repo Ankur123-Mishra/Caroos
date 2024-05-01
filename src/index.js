@@ -17,25 +17,23 @@ import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  // <React.StrictMode>
-
-  <BrowserRouter>
-    <AuthProvider>
-      <ServicesProvider>
-        <UserAddressProvider>
-          <ProfileProvider>
-            <AddCarProvider>
-              <CartProvider>
-                <PaymenttProvider>
-                  <App />
-                </PaymenttProvider>
-              </CartProvider>
-            </AddCarProvider>
-          </ProfileProvider>
-        </UserAddressProvider>
-      </ServicesProvider>
-    </AuthProvider>
-  </BrowserRouter>
-  // </React.StrictMode>
-
+  <React.StrictMode>
+    <BrowserRouter>
+      <AuthProvider>
+        <ServicesProvider>
+          <UserAddressProvider>
+            <ProfileProvider>
+              <AddCarProvider>
+                <CartProvider>
+                  <PaymenttProvider>
+                    <App />
+                  </PaymenttProvider>
+                </CartProvider>
+              </AddCarProvider>
+            </ProfileProvider>
+          </UserAddressProvider>
+        </ServicesProvider>
+      </AuthProvider>
+    </BrowserRouter>
+  </React.StrictMode>
 );
