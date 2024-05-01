@@ -69,11 +69,11 @@ function NavbarMobile() {
 
   useEffect(() => {
     if (
-      location.pathname === "/services" ||
-      location.pathname === "/services/detailing" ||
-      location.pathname === "/services/paint-protection" ||
-      location.pathname === "/services/denting-and-painting" ||
-      location.pathname === "/services/services" ||
+      location.pathname === "/services" &&
+      location.pathname === "/services/detailing" &&
+      location.pathname === "/services/paint-protection" &&
+      location.pathname === "/services/denting-and-painting" &&
+      location.pathname === "/services/services" &&
       location.pathname === "/services/accessories"
     ) {
       setPath(true);
