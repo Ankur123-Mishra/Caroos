@@ -28,7 +28,7 @@ function NavbarMobile() {
       if (response.status === 200) {
         const data = response?.data;
         setBrandLogo(data?.logo);
-        // console.log("logo", data);
+        console.log("logo", data);
       }
     } catch (err) {
       const error = err.response.data;
