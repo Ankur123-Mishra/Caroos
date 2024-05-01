@@ -21,21 +21,40 @@ function NavbarMobile() {
   const [useOverlay, setUseOverlay] = useState(false);
   const [brandLogo, setBrandLogo] = useState("");
 
+  // const getBrandLogo = async () => {
+  //   setIsLoading(true);
+  //   try {
+  //     const response = await Axios.get("/get-logo");
+  //     if (response.status === 200) {
+  //       const data = response?.data;
+  //       setBrandLogo(data?.logo);
+  //       console.log("logo", data);
+  //     }
+  //   } catch (err) {
+  //     console.log(err.response);
+  //   } finally {
+  //     setIsLoading(false);
+  //   }
+  // };
   const getBrandLogo = async () => {
     setIsLoading(true);
     try {
       const response = await Axios.get("/get-logo");
-      if (response.status === 200) {
-        const data = response?.data;
-        setBrandLogo(data?.logo);
-        console.log("logo", data);
+      if (response && response.status === 200) {
+        const data = response.data; // Removed optional chaining
+        if (data) {
+          setBrandLogo(data.logo); // Added null check for data
+          console.log("logo", data);
+        }
       }
     } catch (err) {
-      const error = err.response.data;
+      console.log(err.response);
     } finally {
       setIsLoading(false);
     }
   };
+
+  
 
   useEffect(() => {
     getBrandLogo();
@@ -69,11 +88,11 @@ function NavbarMobile() {
 
   useEffect(() => {
     if (
-      location.pathname === "/services" &&
-      location.pathname === "/services/detailing" &&
-      location.pathname === "/services/paint-protection" &&
-      location.pathname === "/services/denting-and-painting" &&
-      location.pathname === "/services/services" &&
+      location.pathname === "/services" ||
+      location.pathname === "/services/detailing" ||
+      location.pathname === "/services/paint-protection" ||
+      location.pathname === "/services/denting-and-painting" ||
+      location.pathname === "/services/services" ||
       location.pathname === "/services/accessories"
     ) {
       setPath(true);
